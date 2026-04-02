@@ -2,8 +2,6 @@
 
 ## PRODIGY_CS_04
 
-A basic keylogger script developed as part of the Prodigy Internship program. This tool captures and logs keystrokes to a file with timestamps, demonstrating event-driven programming in Python.
-
 ### Features
 - Logs all key presses with timestamps
 - Handles special keys (e.g., space, enter, shift)
