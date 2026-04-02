@@ -27,5 +27,6 @@ def on_release(key: Union[Key, KeyCode, None]) -> bool | None:
         return False
     return None
 
+write_log("Session started.\n" + "-" * 50)
 with Listener(on_press=on_press, on_release=on_release) as listener: # type: ignore
     listener.join()
